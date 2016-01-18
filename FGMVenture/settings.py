@@ -142,6 +142,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'app',
     'compressor',
+    'gunicorn'
     
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
