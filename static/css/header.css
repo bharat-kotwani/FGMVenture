@@ -1,0 +1,191 @@
+.c-strip_header .c-header_info a:hover {
+  color: #dd2342; }
+
+.c-section_header .c-blank_strip {
+  background: #dd2342; }
+
+.c-section_header h2 {
+  background: #dd2342; }
+
+.c-strip_header a.c-header_sign:hover, .c-strip_header .c-header_login a:hover {
+  background-color: #dd2342;
+  border-color: #dd2342; }
+
+.c-fixed .c-header_navbar {
+  background: #e4eff9 none repeat scroll 0 0;
+  position: fixed;
+  top: 0;
+  z-index: 99999; }
+
+.c-section_header {
+  position: relative; }
+
+.c-section_header .c-blank_strip {
+  height: 44px;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.c-section_header h2 {
+  padding-right: 150px;
+  height: 44px;
+  margin: auto;
+  display: inline-block;
+  color: #eef5fc;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+
+.c-section_header h2 span {
+  position: relative;
+  top: 35px; }
+
+
+@media (max-width: 1279px) {
+  .c-section_header h2 {
+    font-size: 24px; }
+
+  .c-free_consult a {
+    padding: 10px; } }
+@media (max-width: 1023px) {
+  .c-section_header h2 {
+    font-size: 24px; }
+
+
+  .c-section_header h2 {
+    display: block;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 0; } }
+/*
+HEADER
+*/
+.c-strip_header {
+  background: #2a2e3c;
+  padding: 15px 0 15px; }
+  .c-strip_header .c-header_info {
+    padding-top: 2px; }
+  .c-strip_header .c-header_info * {
+    display: inline-block; }
+  .c-strip_header .c-header_info a {
+    color: #eef5fc;
+    font: 300 14px; }
+  .c-strip_header .fa {
+    font-size: 12px;
+    padding-right: 3px; }
+  .c-strip_header .c-header_call {
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #616582; }
+  .c-strip_header .c-header_login {
+    text-align: right; }
+  .c-strip_header .c-header_login a {
+    font: 14px;
+    color: #eef5fc;
+    padding: 5px 10px;
+    border: 1px solid #eef5fc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    min-width: 65px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 11px; }
+  .c-strip_header a.c-header_sign {
+    background: #00a888;
+    border-color: #00a888; }
+  .c-strip_header a.c-header_register {
+    padding-left: 15px;
+    margin-left: 15px;
+    position: relative; }
+  .c-strip_header a.c-header_register:after {
+    content: "";
+    display: block;
+    border-right: 1px solid #616582;
+    height: 20px;
+    left: -10px;
+    top: 0;
+    position: absolute; }
+  .c-strip_header .fa.fa-user {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    right: 4px;
+    top: 2px; }
+
+.c-header {
+  position: relative; }
+
+.c-header_navbar {
+  position: absolute;
+  width: 100%;
+  top: 53px;
+  left: 0;
+  background: rgba(228, 239, 249, 0.8);
+  z-index: 99; }
+
+.c-header_logo {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+@media (max-width: 767px) {
+  .c-strip_header {
+    background: #2a2e3c;
+    padding: 5px 0 15px; }
+
+  .c-strip_header .c-header_info {
+    text-align: center; }
+
+  .c-strip_header .c-header_login {
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    top: 5px; }
+
+  .c-header_logo {
+    padding: 7px 0;
+    text-align: center; }
+
+  .c-header_navbar {
+    top: 100%; }
+
+  .c-header_logo > .row {
+    margin: auto; }
+
+  .c-strip_header .c-header_info a {
+    display: block;
+    margin: auto;
+    padding: 3px 0;
+    border: none; } }
+/* minimal styles for that navi */
+.c-header_nav {
+  text-align: right; }
+
+
+.c-main_nav-mobile .c-main_nav-subover-header {
+  display: none !important;
+  padding: 0;
+  margin: 0; }
+
+
+ .c-header_nav {
+    text-align: center; }
+
+
+ .c-already_earn .c-section_header h2 {
+    padding-left: 40px; }
+
+
+ .c-comment .c-comment_listing .c-comment_header {
+    padding-left: 95px;
+    color: #2a2e3c;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300; }
+  .c-comment .c-comment_listing .c-comment_header a {
+    color: #2a2e3c;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300; }

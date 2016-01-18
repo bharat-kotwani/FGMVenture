@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html >
+    
+
+<head>
+        {% load staticfiles compress %}
+        <title>{% block title %}{% endblock %} | FGM Ventures Pvt. Ltd., Insurance, Loan</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block meta %}{% endblock %}
+    {% compress css %}
+        <link href='{% static "css/css.css" %}' rel='stylesheet' type='text/css'>
+        <link href='{% static "css/css2.css" %}' rel='stylesheet' type='text/css'>
+        <link href='{% static "css/css3.css" %}' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}">
+        <link rel="stylesheet" href="{% static "css/font.css" %}">
+        <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/header.css" %}">
+        <link rel="stylesheet" href="{% static "css/style.css" %}">
+        
+
+    <style>
+        input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus
+        {
+            background-color:#2a2e3c !important;
+
+        }
+        .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2
+        {
+            
+        }
+    </style>
+    
+        {% block css %}{% endblock %}
+    {% endcompress %}
+    <link href="{% static "appimg/favicon.ico" %}" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- LOADER -->
+        
+        <div id="loader">
+            <div class="loader">
+                <img class="anim-loader" src="{% static "appimg/logo.jpg" %}" alt="FGM Ventures Pvt. Ltd.">
+            </div>
+        </div>
+        <div class="build-line">
+
+        </div>
+        <!-- HEADER -->
+
+        
+        
+        <header class="header header-type-2 landing-header c-header" >
+            <div class="c-strip_header">
+              <div class="container">
+                    <div class="row clearfix">
+                          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 c-header_info">
+                                <div class="row">
+                                      <a href="tel:01130516317" class="c-header_call"><i class="fa fa-phone"></i> 011-3051-6317</a><a href="tel:01130516318" class="c-header_call"><i class="fa fa-phone"></i> 011-3051-6318</a>
+
+                                      <a href="mailto:support@fgmventures.com" class="c-header_mail" style="color:floralwhite;font-size:14px;"><i class="fa fa-envelope-o"></i> support@fgmventures.com</a>
+                                </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 c-header_login">
+                                <div class="row">
+                                      <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-google"></i></a>
+                                </div>
+                          </div>
+                    </div>
+              </div>
+        </div>
+                <div class="container">
+
+                    <div class="nav-panel clearfix">
+                        <a href="/" class="logo">
+                            <img class="logo-light" src="{% static "appimg/logo.jpg" %}" alt="FGM Ventures Pvt. Ltd.">
+                            <img class="logo-dark" src="{% static "appimg/logo.jpg" %}" alt="FGM Ventures Pvt. Ltd.">
+                        </a>
+                        <div class="info-panel">
+                            <a class="search-icon" href="#"><i class="fa fa-search"></i></a>
+                            <a class="soc-icon" href="#"><i class="fa fa-bars"></i></a>
+                            <a class="open-menu" href="#"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <nav class="nav">
+                            <ul>
+                               
+                                <li class="">
+                                    <a href="/">Home</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    
+                                </li>
+                                <li class="">
+                                    <a href="/about-us">About Us</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    
+                                </li>
+                                <li class="sub-menu-parent"><a href="#">Insurance</a>
+                                    <span class="fa open-sb-menu fa-chevron-down"></span>
+                                    <ul class="sub-menu sb"><li><a href="#">Health Insurance</a></li>
+                                                <li><a href="#">Life Insurance</a></li>
+                                                <li><a href="#">General Insurance</a></li>
+                                        
+                                            
+
+                                    </ul>
+                                </li>
+                                
+                                    <li class="sub-menu-parent"><a href="#">Loans</a>
+                                    <span class="fa open-sb-menu fa-chevron-down"></span>
+                                    <ul class="sub-menu sb"><li class="sub-menu-parent"><a href="#">Housing Loan </a>
+
+                                      </li><li><a href="#">Gold Loan</a></li>
+                                        <li><a href="#">Loan Aginst Property</a></li>
+                                        <li><a href="/project-loan">Project Loan</a></li>
+                                        
+                                            
+
+                                    </ul>
+                                </li>
+                                    
+                                
+                                <li class="sub-menu-parent">
+                                    <a href="#">Education</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    <ul class="sub-menu sb"><li><a href="#">Age 05 - 15 </a></li>
+										<li><a href="#">Age 16 - 22 </a></li>
+										<li><a href="#">Age 23 - 45 </a></li>
+										<li><a href="#">Corporate </a></li>
+                                    </ul>
+                                    
+                                </li>
+                                <li class="">
+                                    <a href="/">Real Estate</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    
+                                </li>
+                                <li class="">
+                                    <a href="/">Media</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    
+                                </li>
+                                <li class="">
+                                    <a href="/contact-us">Contact Us</a><span class="fa open-sb-menu fa-chevron-down"></span>
+                                    
+                                </li>
+                                
+                            </ul>
+                            <a class="close-menu" href="#"><i class="fa fa-times"></i></a>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        {% block banner %}{% endblock %}
+        {% block maincontent %}{% endblock %}
+        <footer class="footer footer-type3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a class="ftr-logo" href="/"><h1 style="font-family: cursive;"><strong><span style="color:whitesmoke;">FGM </span><span style="color:red;">
+                            <small style="color: #dc3c46;">Ventures</small></span></strong></h1>
+                            
+                            <h6 style="font-size:14px;">Loan &amp; Insurance</h6>
+
+
+                        </a>
+                        <p class="ftr-text">
+                            FGM Ventures is a startup organization with interests in BFSI / Service / Education and Media (movie production) sector having started operations in the year 2012. As part of our expansion plan the group will be venturing into real estate through our maiden project (studio apartments) among the scenic hills of Himachal Pradesh (Manali). 
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Get In Touch</h3>
+                       
+                        <ul class="ftr-list">
+                            <li><i class="fa fa-map-marker"></i><span>Address: 8th floor, 94 Meghdoot, Building, Nehru Place, New Delhi - 110019</span></li>
+                            <li><i class="fa fa-phone"></i><span>Telephones:</span> <a href="tel:01130516317"> 011-3051-6317</a>,<a href="tel:01130516318">011-3051-6318</a></li>
+                            <li><i class="fa fa-envelope-o"></i><span>E-mail:</span> <a href="mailto:support@fgmventures.com">support@fgmventures.com</a></li>
+                            
+                        </ul>
+                        <div class="ftr-social">
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-google"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>RECENT POSTS</h3>
+                        <ul class="recent-list">
+                            <li><a href="single.html">Unde omnis iste natus sit voluptatem.</a><span>29 August 2014</span></li>
+                            <li><a href="single.html">Totam rem aperiam, eaque ipsa quae ab illo.</a><span>18 August 2014</span></li>
+                            <li><a href="single.html">Inventore veritatis et quasi architecto.</a><span>15 August 2014</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h3>Contact us</h3>
+                        <form class="contact-us build-contact-us"  action="http://demo.freshface.net/html/h-sonic/">
+                            <input type="text" placeholder="Full  Name"   required/>
+                            <input type="email" placeholder="Email Address"  required/>
+                            <textarea placeholder="Your Message" ></textarea>
+                            <input class="submit submit-orange" type="submit" value="Send message"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-row copy-row-2">
+                <div class="container text-center">
+                    <div class="copy">&copy; {% now "Y" %} FGM Ventures Pvt. Ltd. - ALL RIGHTS RESERVED</div>
+                </div>
+            </div>
+        </footer>
+        <div class="search-panel">
+            <div class="container clearfix">
+                
+                <script>
+                          (function() {
+                            var cx = '006428561035115286562:bwckrcti2z0';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                '//cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                          })();
+                        </script>
+                        <gcse:search></gcse:search>
+                <a href="#" class="fa fa-times close-search"></a>
+            </div>
+        </div>
+        <div class="social-area">
+            <a href="#" class="fa fa-times close-social"></a>
+            <div class="social-area-box ">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <a class="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+        {% compress js %}
+        <script src="{% static "js/jquery-1.11.3.min.js" %}"></script>
+        
+        <script src="{% static "js/idangerous.swiper.min.js" %}"></script>
+        <script src="{% static "js/jquery.countTo.js" %}"></script>
+        <script src="{% static "js/jquery.mixitup.js" %}"></script>
+    
+        <script src="{% static "js/main.js" %}"></script>
+        {% block js %}{% endblock %}
+        {% endcompress %}
+</body>
+</html>
