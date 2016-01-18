@@ -74,7 +74,7 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = COMPRESS_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -93,10 +93,10 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
  'compressor.finders.CompressorFinder',
 )
-COMPRESS_ENABLED = True
+COMPRESS_ENABLED = False
 
 if not COMPRESS_ENABLED:
-       COMPRESS_ENABLED = True
+       COMPRESS_ENABLED = False
        COMPRESS_CSS_FILTERS = ["compressor.filters.cssmin.CSSMinFilter"]
        COMPRESS_JS_FILTERS = ["compressor.filters.jsmin.JSMinFilter"]
 
